@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+
+
+#demoTable td, #demoTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #demoTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #demoTable tr:hover {background-color: #ddd;}
+  
+  #demoTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
